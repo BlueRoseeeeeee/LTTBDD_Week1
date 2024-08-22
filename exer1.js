@@ -12,8 +12,10 @@ function calBMI(mass, height) {
     BMI = mass / (height * height)
     return BMI;
 }
-console.log(`Mark's BMI ${calBMI(Mark_mass,Mark_height)}`)
-console.log(`John's BMI ${calBMI(John_mass,John_height)}`)
+Mark_BMI_1 = calBMI(Mark_mass, Mark_height)
+John_BMI_1 = calBMI(John_mass, John_height)
+console.log(`Mark's BMI ${Mark_BMI_1}`)
+console.log(`John's BMI ${John_BMI_1}`)
 markHigherBMI = (calBMI(Mark_mass, Mark_height) > calBMI(John_mass, John_height))
 console.log(markHigherBMI)
     //test data2
@@ -31,3 +33,5 @@ if (Mark_BMI > John_BMI) {
 } else {
     console.log("John's BMI is higher than Mark's!")
 }
+// Exer2.1
+console.log(`Mark's BMI (${Mark_BMI_1.toFixed(1)}) is higher than John's (${John_BMI_1.toFixed(1)})`)
