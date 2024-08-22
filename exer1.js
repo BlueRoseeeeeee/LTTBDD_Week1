@@ -24,3 +24,10 @@ console.log(`Mark's BMI  ${Mark_BMI}`)
 console.log(`John's BMI ${John_BMI}`)
 markHigherBMI2 = (Mark_BMI > John_BMI)
 console.log(`Mark has a higher BMI than John: ${markHigherBMI2}`)
+    //Exer2
+console.log("Exercise 2: ")
+if (Mark_BMI > John_BMI) {
+    console.log("Mark's BMI is higher than John's!")
+} else {
+    console.log("John's BMI is higher than Mark's!")
+}
