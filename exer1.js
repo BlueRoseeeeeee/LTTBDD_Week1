@@ -9,3 +9,6 @@ function calBMI(mass, height) {
 }
 console.log(`Mark's BMI ${calBMI(Mark_mass,Mark_height)}`)
 console.log(`John's BMI ${calBMI(John_mass,John_height)}`)
+
+markHigherBMI = (calBMI(Mark_mass, Mark_height) > calBMI(John_mass, John_height))
+console.log(markHigherBMI)
